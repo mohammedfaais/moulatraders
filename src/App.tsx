@@ -135,7 +135,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">Best Quality</span>
                   <button className="text-amber-600 hover:text-amber-800 transition-colors">
-                    <ShoppingCart className="w-5 h-5" />
+{/*                     <ShoppingCart className="w-5 h-5" /> */}
                   </button>
                 </div>
               </div>
@@ -152,7 +152,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">Premium Grade</span>
                   <button className="text-amber-600 hover:text-amber-800 transition-colors">
-                    <ShoppingCart className="w-5 h-5" />
+{/*                     <ShoppingCart className="w-5 h-5" /> */}
                   </button>
                 </div>
               </div>
@@ -169,7 +169,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">Iranian Quality</span>
                   <button className="text-amber-600 hover:text-amber-800 transition-colors">
-                    <ShoppingCart className="w-5 h-5" />
+{/*                     <ShoppingCart className="w-5 h-5" /> */}
                   </button>
                 </div>
               </div>
@@ -186,7 +186,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">Medjool & Ajwa</span>
                   <button className="text-amber-600 hover:text-amber-800 transition-colors">
-                    <ShoppingCart className="w-5 h-5" />
+{/*                     <ShoppingCart className="w-5 h-5" /> */}
                   </button>
                 </div>
               </div>
@@ -203,7 +203,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">International</span>
                   <button className="text-amber-600 hover:text-amber-800 transition-colors">
-                    <ShoppingCart className="w-5 h-5" />
+{/*                     <ShoppingCart className="w-5 h-5" /> */}
                   </button>
                 </div>
               </div>
@@ -220,7 +220,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">Imported</span>
                   <button className="text-amber-600 hover:text-amber-800 transition-colors">
-                    <ShoppingCart className="w-5 h-5" />
+{/*                     <ShoppingCart className="w-5 h-5" /> */}
                   </button>
                 </div>
               </div>
