@@ -146,11 +146,11 @@ function App() {
 
 
             {/* Cashews */}
-         {/* Cashews */}
 <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
   <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#F5D1A2" className="w-16 h-16">
-      <path d="M42.6,6.2c-6.3-1.7-12.9,1.5-16.1,7.3c-2.5,4.7-2.9,10.6-1.2,16.3c1.1,3.5,1.6,6.5,1.6,9.3c0,2.5-0.6,5.1-1.9,7.1 c-2.4,3.8-0.6,8.8,3.6,10.2c2.6,0.9,5.7,0.9,8.5-0.2c4.3-1.7,7.6-5.4,9.6-10.1c2.8-6.6,3.5-15.1,1.9-22.4 C47.7,17.5,46.7,9.5,42.6,6.2z"/>
+      <path d="M32 4C22 4 12 14 12 30c0 8 6 18 20 26 14-8 20-18 20-26 0-8-10-18-20-18z" />
+      <path d="M32 10c-7 0-14 7-14 16s5 16 14 20c9-4 14-11 14-20s-7-16-14-16z" fill="#EFCFA1" />
     </svg>
   </div>
   <div className="p-6">
@@ -164,6 +164,7 @@ function App() {
     </div>
   </div>
 </div>
+
 
 
             {/* Pistachios */}
