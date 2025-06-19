@@ -150,21 +150,24 @@ function App() {
 
 
             {/* Pistachios */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
-                <div className="text-6xl">🟢</div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-amber-900 mb-2">Pistachios</h3>
-                <p className="text-amber-700 mb-4">Iranian pistachios with rich flavor and perfect crunch</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-lg font-bold text-amber-800">Iranian Quality</span>
-                  <button className="text-amber-600 hover:text-amber-800 transition-colors">
-{/*                     <ShoppingCart className="w-5 h-5" /> */}
-                  </button>
-                </div>
-              </div>
-            </div>
+  <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
+  <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" className="w-16 h-16">
+      <path d="M32 4C18 12 12 28 20 44s28 12 28-4-8-32-16-36z" fill="#A3D977"/>
+      <path d="M32 10c-7 4-12 14-10 24s10 16 16 12 6-18 2-26-8-10-8-10z" fill="#7CB342"/>
+    </svg>
+  </div>
+  <div className="p-6">
+    <h3 className="text-xl font-semibold text-amber-900 mb-2">Pistachios</h3>
+    <p className="text-amber-700 mb-4">Iranian pistachios with rich flavor and perfect crunch</p>
+    <div className="flex justify-between items-center">
+      <span className="text-lg font-bold text-amber-800">Iranian Quality</span>
+      <button className="text-amber-600 hover:text-amber-800 transition-colors">
+        {/* <ShoppingCart className="w-5 h-5" /> */}
+      </button>
+    </div>
+  </div>
+</div>
 
             {/* Dates */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
