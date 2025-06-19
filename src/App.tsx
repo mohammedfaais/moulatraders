@@ -143,7 +143,7 @@ function App() {
 
             {/* Cashews */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
+{/*               <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
                 <div className="text-6xl">🌰</div>
               </div>
               <div className="p-6">
@@ -151,12 +151,12 @@ function App() {
                 <p className="text-amber-700 mb-4">Premium grade cashews, perfectly roasted and salted</p>
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-amber-800">Premium Grade</span>
-                  <button className="text-amber-600 hover:text-amber-800 transition-colors">
+                  <button className="text-amber-600 hover:text-amber-800 transition-colors"> */}
 {/*                     <ShoppingCart className="w-5 h-5" /> */}
-                  </button>
-                </div>
-              </div>
-            </div>
+            //       </button>
+            //     </div>
+            //   </div>
+            // </div>
 
             {/* Pistachios */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
