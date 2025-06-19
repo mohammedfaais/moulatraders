@@ -2,6 +2,11 @@ import React from 'react';
 import { ShoppingCart, Package, MessageCircle, Instagram, Phone, Star, Truck, Shield, Award } from 'lucide-react';
 
 function App() {
+  const whatsappNumber = "919629510839";
+  const whatsappMessage = "Hi! I'm interested in ordering premium dry fruits from Moula Traders.";
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+  const instagramUrl = "https://www.instagram.com/moulatraders.nagore";
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">
       {/* Header */}
@@ -51,14 +56,24 @@ function App() {
               Carefully selected premium quality dry fruits and imported snacks at unbeatable prices – delivered all over India
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-amber-600 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-amber-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
-                <MessageCircle className="w-5 h-5 inline mr-2" />
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-amber-600 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-amber-700 hover:to-orange-700 transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center justify-center"
+              >
+                <MessageCircle className="w-5 h-5 mr-2" />
                 DM to Order
-              </button>
-              <button className="bg-white text-amber-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-50 transform hover:scale-105 transition-all duration-200 shadow-lg border-2 border-amber-200">
-                <Phone className="w-5 h-5 inline mr-2" />
+              </a>
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-amber-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-50 transform hover:scale-105 transition-all duration-200 shadow-lg border-2 border-amber-200 inline-flex items-center justify-center"
+              >
+                <Phone className="w-5 h-5 mr-2" />
                 Call Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -112,7 +127,7 @@ function App() {
             {/* Almonds */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
               <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
-                <div className="text-6xl">🌰</div>
+                <div className="text-6xl">🥜</div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-amber-900 mb-2">Premium Almonds</h3>
@@ -129,7 +144,7 @@ function App() {
             {/* Cashews */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
               <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
-                <div className="text-6xl">🥜</div>
+                <div className="text-6xl">🌰</div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-amber-900 mb-2">Cashews</h3>
@@ -146,7 +161,7 @@ function App() {
             {/* Pistachios */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
               <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
-                <div className="text-6xl">🌰</div>
+                <div className="text-6xl">🟢</div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-amber-900 mb-2">Pistachios</h3>
@@ -270,14 +285,24 @@ function App() {
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <a href="#" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <a 
+                href={instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-pink-500 to-purple-600 text-white p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              >
                 <Instagram className="w-12 h-12 mx-auto mb-4" />
                 <h3 className="text-2xl font-semibold mb-2">Instagram</h3>
                 <p className="text-pink-100">Follow us and DM for orders</p>
-                <div className="mt-4 text-lg font-semibold">@moulatraders</div>
+                <div className="mt-4 text-lg font-semibold">@moulatraders.nagore</div>
               </a>
               
-              <a href="#" className="bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              >
                 <MessageCircle className="w-12 h-12 mx-auto mb-4" />
                 <h3 className="text-2xl font-semibold mb-2">WhatsApp</h3>
                 <p className="text-green-100">Quick orders via WhatsApp</p>
