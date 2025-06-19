@@ -66,7 +66,7 @@ function App() {
                 DM to Order
               </a>
               <a 
-                href={whatsappUrl}
+                href="tel:+9196292510839"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-amber-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-50 transform hover:scale-105 transition-all duration-200 shadow-lg border-2 border-amber-200 inline-flex items-center justify-center"
