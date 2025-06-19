@@ -125,21 +125,25 @@ function App() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Almonds */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
-                <div className="text-6xl">🥜</div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-amber-900 mb-2">Premium Almonds</h3>
-                <p className="text-amber-700 mb-4">Fresh, crunchy California almonds packed with nutrients</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-lg font-bold text-amber-800">Best Quality</span>
-                  <button className="text-amber-600 hover:text-amber-800 transition-colors">
-{/*                     <ShoppingCart className="w-5 h-5" /> */}
-                  </button>
-                </div>
-              </div>
-            </div>
+            {/* Almonds with SVG icon */}
+<div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
+  <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D6A76C" className="w-16 h-16">
+      <path d="M32 4C20 12 12 24 12 36C12 48 20 56 32 60C44 56 52 48 52 36C52 24 44 12 32 4Z" />
+    </svg>
+  </div>
+  <div className="p-6">
+    <h3 className="text-xl font-semibold text-amber-900 mb-2">Premium Almonds</h3>
+    <p className="text-amber-700 mb-4">Fresh, crunchy California almonds packed with nutrients</p>
+    <div className="flex justify-between items-center">
+      <span className="text-lg font-bold text-amber-800">Best Quality</span>
+      <button className="text-amber-600 hover:text-amber-800 transition-colors">
+        {/* <ShoppingCart className="w-5 h-5" /> */}
+      </button>
+    </div>
+  </div>
+</div>
+
 
             {/* Cashews */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
