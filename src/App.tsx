@@ -146,24 +146,6 @@ function App() {
 
 
             {/* Cashews */}
-<div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
-  <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#F5D1A2" className="w-16 h-16">
-      <path d="M32 4C22 4 12 14 12 30c0 8 6 18 20 26 14-8 20-18 20-26 0-8-10-18-20-18z" />
-      <path d="M32 10c-7 0-14 7-14 16s5 16 14 20c9-4 14-11 14-20s-7-16-14-16z" fill="#EFCFA1" />
-    </svg>
-  </div>
-  <div className="p-6">
-    <h3 className="text-xl font-semibold text-amber-900 mb-2">Cashews</h3>
-    <p className="text-amber-700 mb-4">Premium grade cashews, perfectly roasted and salted</p>
-    <div className="flex justify-between items-center">
-      <span className="text-lg font-bold text-amber-800">Premium Grade</span>
-      <button className="text-amber-600 hover:text-amber-800 transition-colors">
-        {/* <ShoppingCart className="w-5 h-5" /> */}
-      </button>
-    </div>
-  </div>
-</div>
 
 
 
